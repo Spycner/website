@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@astrojs/ts-plugin": "^1.10.2",
+    "astro": "^4.15.4"
+  }
+}

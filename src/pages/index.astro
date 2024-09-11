@@ -1,11 +1,15 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import '../styles/global.css';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
 <html lang="en">
     <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width"/>
-        <meta name="generator" content={Astro.generator}/>
-        <title>Pascal Kraus</title>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
     </head>
     <body>
+        <a href="/blogs">Blogs</a>
         <h1>Hello World</h1>
     </body>
 </html>

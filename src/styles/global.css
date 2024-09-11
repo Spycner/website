@@ -1,0 +1,27 @@
+@import url("./catppuccin_frappe.css");
+
+:root {
+  /* Use Catppuccin Frappe theme variables */
+  --background-color: var(--frappe-base);
+  --text-color: var(--frappe-text);
+  --accent-color: var(--frappe-mauve);
+  --secondary-color: var(--frappe-blue);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-color);
+}
